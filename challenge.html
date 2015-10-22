@@ -1,0 +1,54 @@
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/challenge.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/challenge.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+  <title>A Challenge!</title>
+</head>
+
+
+
+<body onload="initialise()">
+
+  <div class= "container">
+    <div class="row" id="top">
+      <div class="col-md-12">
+        <h1>A Guessing Game of Sorts</h1>
+      </div>
+    </div>
+
+    <div class="row game">
+      <div class="col-md-12">
+        <p>I would like to invite you to try and guess what number I am thinking of.</p>
+        <p> I have chosen a number between 1 and 100. You have 5 guesses and 15 seconds. Good Luck!
+        </p>
+      </div>
+    </div>
+
+    <div class="row game" id="clock">
+      <div class="col-md-10">
+        <div>You have <span id="time"></span> seconds!</div>
+      </div>
+    </div>
+
+    <div class="row game">
+      <div class="col-md-12">
+        <form name="game">
+          What is your guess?
+          <input id = "guess" type = "number" autofocus placeholder="###">
+          <input id ="hide">
+          <input type="button" value="Tell Me" onclick="calculate()">
+          <output class ="result" name="result"></output>
+        </form>
+      </div>
+    </div>
+
+</div>
+
+</body>
+
+<!-- <script src="../js/jquery-2.1.4.js"></script>
+<script src="../js/challenge.js"></script> -->
+</html>

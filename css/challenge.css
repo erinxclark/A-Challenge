@@ -1,0 +1,56 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+#hide {
+  display: none;
+}
+
+body {
+  background-image: url(../images/darkclouds.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(250,252,252,0.4);
+  margin-top: 50px;
+}
+h1 {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px 0px 20px 0px;
+  font-size: 75px;
+  text-align: center;
+}
+
+.game {
+  padding: 20px 0px 20px 0px;
+  font-size: 25px;
+}
+
+#clock {
+  border: solid 4px #B80000;
+  text-align: center;
+  text-shadow: 1px 1px 1px #B80000;
+  font-size: 40px;
+  margin: 0px 50px 0px 50px;
+}
+
+#time {
+  font-weight: bolder;
+  padding: 0px 5px 0px 5px;
+  background-color: black;
+  color: white;
+  border: solid black 2px;
+  font-family: Impact;
+}
+
+.result {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #B80000;
+  padding-top: 40px;
+  font-family: 'Rock Salt', cursive;
+}
